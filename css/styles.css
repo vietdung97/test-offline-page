@@ -42,5 +42,8 @@ body {
 
 .video-responsive {
     width: 100%;
-    height: 700px;
+}
+.tab-pane {
+    overflow-y: auto;
+    height: calc(100vh - 200px);
 }
